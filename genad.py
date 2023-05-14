@@ -7,6 +7,8 @@ def generate_username(name, surname):
     last = surname[0].lower()
 
     username_options = [
+        name, 
+        surname,
         first + '.' + surname,
         first + surname,
         name + last,
