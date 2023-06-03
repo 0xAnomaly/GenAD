@@ -19,7 +19,9 @@ def generate_username(name, surname):
         name + '_' + last,
         first + '-' + surname,  
         name + '-' + last,
-        last + '-' + name
+        last + '-' + name,
+        name + surname,
+        surname + name
     ]
 
     return username_options
